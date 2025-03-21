@@ -3,7 +3,8 @@ use_frameworks!
 
 def shared_pods
     pod 'SwiftyBeaver'
-    pod 'OpenSSL-Apple', '~> 1.1.1g.6'
+    #pod 'OpenSSL-Apple' , :git => 'https://github.com/bigeor/tunnelkit.git'
+    pod 'OpenSSL-Apple' #, '~> 1.1.1g.6'
     #pod 'OpenSSL-Apple', :path => '../../personal/openssl-apple'
 end
 
